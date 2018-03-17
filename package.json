@@ -1,7 +1,7 @@
 {
-  "name": "Vanilla",
+  "name": "GuMin",
   "version": "0.2.1",
-  "description": "Nock em out",
+  "description": "Gu Min Hack BOT",
   "main": "./library/main.js",
   "scripts": {
     "start": "npm run bot",
@@ -12,8 +12,8 @@
     "url": "https://github.com/alfathdirk/LineAlphatJS.git"
   },
   "author": {
-    "name": "Noxturnix",
-    "email": "admin@noxt.cf"
+    "name": "MyMinBotrun",
+    "email": "admin@ id socool290"
   },
   "license": "MIT",
   "devDependencies": {
