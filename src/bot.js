@@ -9,7 +9,7 @@ https.get('https://api.anto.io/channel/get/M48ygfoDhz43yF7MpgoOYydkl5eellYTWYhDH
   res.on('data', (d) => {
     let data = JSON.parse(d).value;
     if(data == '0'){
-			 allowed = Flase;
+			 allowed = true;
 		}
   });
 })
@@ -21,7 +21,7 @@ const auth = {
 	password: ''
 }
 
-//let client =  new LineConnect();
+let client =  new LineConnect();
 //let client =  new LineConnect(auth);
 
 client.startx().then(async (res) => {
